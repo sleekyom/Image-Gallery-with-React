@@ -1,0 +1,24 @@
+/* body{
+  background-color: blueviolet;
+} */
+
+
+.card{
+  width: 18em;
+  margin: 10px;
+}
+
+.users{
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+.container{
+  text-align: center;
+}
+
+.btn-group{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
