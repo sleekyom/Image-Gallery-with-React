@@ -14,6 +14,10 @@
   flex-flow: row wrap;
 }
 
+.header{
+  margin-top: 5%;
+}
+
 .container{
   text-align: center;
 }

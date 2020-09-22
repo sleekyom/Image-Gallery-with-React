@@ -27,7 +27,7 @@ class App extends Component {
     const {users} = this.state;
     return(
       <div className="container">
-          <div class="shadow-lg p-3 mb-5 bg-white rounded"><h3>User List:</h3></div>
+          <div class="header shadow-lg p-3 mb-5 bg-white rounded"><h3>User List:</h3></div>
           <div className="users">
             {users.map((user) => (
               <div className="card" key={user.id}>
